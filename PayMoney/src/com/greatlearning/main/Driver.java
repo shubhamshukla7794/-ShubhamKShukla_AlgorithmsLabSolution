@@ -10,6 +10,9 @@ public class Driver {
     public static void main(String[] args) {
 
         TransactionService service = new TransactionService();
+
+//        Uncomment the below line to perform MergeSort so that the targets can be searched in sorted array Transaction
+//        -------------------------------------------------------------------------------------------------------------
 //        MergeSort mergeSort = new MergeSort();
         Scanner input = new Scanner(System.in);
 
@@ -24,6 +27,8 @@ public class Driver {
         for (int i =0; i<trans_size; i++)
             transactions[i] = input.nextInt();
 
+//        Uncomment the below line to perform MergeSort so that the targets can be searched in sorted array Transaction
+//        -------------------------------------------------------------------------------------------------------------
 //        mergeSort.sort(transactions, 0, transactions.length-1);
 
         System.out.print(" Enter the total no of targets that needs to be achieved :  ");
